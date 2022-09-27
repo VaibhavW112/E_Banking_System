@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&family=M+PLUS+1+Code:wght@400&display=swap');
+
+* {
+  /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+  font-family: 'M PLUS 1 Code', sans-serif !important;
+}
+
+.card {
+  box-shadow: 0 35px 50px -30px rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid #FFF !important;
+}
+
+body {
+  background: #5433FF;
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(45deg, #A5FECB, #20BDFF, #5433FF); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(45deg, #A5FECB, #20BDFF, #5433FF); */
+  background-image: url(bg_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100vh; */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.img_logo {
+  width: 250px !important;
+  display: block;
+  margin: 25px auto;
+}
+
+.bg_grad_1{
+  background: #02AAB0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00CDAC, #02AAB0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.profile_img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.contact_us_user {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+}
+.bank_logo{
+  width: 200px;
+  padding-top: 50px;
+}
